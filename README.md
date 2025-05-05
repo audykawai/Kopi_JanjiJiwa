@@ -47,6 +47,7 @@
                         <p style="text-align:center"><img src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/9f22565e-dc67-4372-b6b4-18135c15e5bd_menu-item-image_1706690062841.jpg?auto=format" width = 200px></p>
                         <h4 class="text-xl font-bold mb-2">Combo Asik Berdua</h4>
                         <p>2 Toast + 2 Drink</p>
+                        <p>Price: 60.000</p>
                     </div>
                 </div>
             </div>
