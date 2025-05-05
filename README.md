@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
@@ -75,7 +74,7 @@
                     </div>
                     <div class="mb-4">
                         <label for="Adress"class="block text-left font-bold">Adress</label>
-                        <input type="Adress" id="Adress" name="email" class="w-full p-2 border rounded-lg" required>
+                        <input type="Adress" id="Adress" name="adress" class="w-full p-2 border rounded-lg" required>
                     </div>
                     <div class="mb-4">
                         <label for="message" class="block text-left font-bold">Message</label>
