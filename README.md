@@ -33,8 +33,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="bg-white p-6 rounded-lg shadow-md">
                         </center>
-                        <img src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/6c7920ee-ade2-48b7-8571-db52ebd853aa_menu-item-image_1706686024345.jpg?auto=format" width = 200px>
-                        </center>
+                        <p style="text-align:center"><img src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/6c7920ee-ade2-48b7-8571-db52ebd853aa_menu-item-image_1706686024345.jpg?auto=format" width = 200px></p>
                         <h4 class="text-xl font-bold mb-2">Combo Jiwa Toast</h4>
                         <p>1 Toast + 1 Drink</p>
                         <p>Price: 37.000</p>
