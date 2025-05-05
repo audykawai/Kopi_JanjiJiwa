@@ -1,9 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class="bg-yellow-100">
     <header class="bg-yellow shadow-md">
@@ -33,22 +33,19 @@
                 <h3 class="text-3xl font-bold mb-8">Best Menu</h3>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="bg-white p-6 rounded-lg shadow-md">
-                        <center>
-                        <p><img src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/6c7920ee-ade2-48b7-8571-db52ebd853aa_menu-item-image_1706686024345.jpg?auto=format" width = 200px></p>
+                        <p style="text-align:center"><img src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/6c7920ee-ade2-48b7-8571-db52ebd853aa_menu-item-image_1706686024345.jpg?auto=format" width = 200px></p>
                         <h4 class="text-xl font-bold mb-2">Combo Jiwa Toast</h4>
                         <p>1 Toast + 1 Drink</p>
                         <p>Price: 37.000</p>
                     </div>
                     <div class="bg-white p-6 rounded-lg shadow-md">
-                        <center>
-                        <p><img src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/324d25d9-9dcd-4010-89d4-6bad9af3439f_menu-item-image_1728464474558.jpg?auto=format" width = 200px></p>
+                        <p style="text-align:center"><img src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/324d25d9-9dcd-4010-89d4-6bad9af3439f_menu-item-image_1728464474558.jpg?auto=format" width = 200px></p>
                         <h4 class="text-xl font-bold mb-2">Kopi Susu Caramel</h4>
                         <p>1 Drink</p>
                         <p>Price: 19.000</p>
                     </div>
                     <div class="bg-white p-6 rounded-lg shadow-md">
-                        <center>
-                        <p><img src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/9f22565e-dc67-4372-b6b4-18135c15e5bd_menu-item-image_1706690062841.jpg?auto=format" width = 200px></p>
+                        <p style="text-align:center"><img src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/9f22565e-dc67-4372-b6b4-18135c15e5bd_menu-item-image_1706690062841.jpg?auto=format" width = 200px></p>
                         <h4 class="text-xl font-bold mb-2">Combo Asik Berdua</h4>
                         <p>2 Toast + 2 Drink</p>
                     </div>
@@ -72,8 +69,13 @@
                         <input type="text" id="name" name="name" class="w-full p-2 border rounded-lg" required>
                     </div>
                     <div class="mb-4">
-                        <label for="email" class="block text-left font-bold">Email</label>
-                        <input type="email" id="email" name="email" class="w-full p-2 border rounded-lg" required>
+                        <label for="email"
+                        class="block text-left font-bold">Email</label>
+                        <input type="text" id="Email" name="Email" class="w-full p-2 border rounded-lg" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="Adress"class="block text-left font-bold">Adress</label>
+                        <input type="Adress" id="Adress" name="email" class="w-full p-2 border rounded-lg" required>
                     </div>
                     <div class="mb-4">
                         <label for="message" class="block text-left font-bold">Message</label>
