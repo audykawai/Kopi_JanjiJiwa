@@ -11,7 +11,7 @@
             <nav>
                 <ul class="flex space-x-4">
                     <li><a href="https://jiwagroup.com/id/jiwaplus">Jiwa+</a></li>
-                    <li><a href="file:///C:/Users/ap08/Downloads/about.html" class="text-black-600 hover:text-black-600">About</a></li>
+                    <li><a href=" https://audykawai.github.io/about/" class="text-black-600 hover:text-black-600">About</a></li>
                     <li><a href="https://gofood.co.id/id/surabaya/restaurant/kopi-janji-jiwa-jiwa-toast-barata-jaya-7ba0717d-519d-44cb-a761-e363d163d409" class="text-Black-600 hover:text-blue-500">Gofood</a></li>
                 </ul>
             </nav>
