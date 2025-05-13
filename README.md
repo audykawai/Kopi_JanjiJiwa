@@ -1,8 +1,17 @@
-<html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+janji jiwa tugas
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-yellow-100">
     <header class="bg-yellow shadow-md">
@@ -11,7 +20,7 @@
             <nav>
                 <ul class="flex space-x-4">
                     <li><a href="https://jiwagroup.com/id/jiwaplus">Jiwa+</a></li>
-                    <li><a href=" https://audykawai.github.io/about/" class="text-black-600 hover:text-black-600">About</a></li>
+                    <li><a href="https://audykawai.github.io/my-biodata/" class="text-black-600 hover:text-black-600">Web Developer</a></li>
                     <li><a href="https://gofood.co.id/id/surabaya/restaurant/kopi-janji-jiwa-jiwa-toast-barata-jaya-7ba0717d-519d-44cb-a761-e363d163d409" class="text-Black-600 hover:text-blue-500">Gofood</a></li>
                 </ul>
             </nav>
@@ -32,7 +41,6 @@
                 <h3 class="text-3xl font-bold mb-8">Best Menu</h3>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="bg-white p-6 rounded-lg shadow-md">
-                        </center>
                         <p style="text-align:center"><img src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/6c7920ee-ade2-48b7-8571-db52ebd853aa_menu-item-image_1706686024345.jpg?auto=format" width = 200px></p>
                         <h4 class="text-xl font-bold mb-2">Combo Jiwa Toast</h4>
                         <p>1 Toast + 1 Drink</p>
@@ -48,7 +56,6 @@
                         <p style="text-align:center"><img src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/9f22565e-dc67-4372-b6b4-18135c15e5bd_menu-item-image_1706690062841.jpg?auto=format" width = 200px></p>
                         <h4 class="text-xl font-bold mb-2">Combo Asik Berdua</h4>
                         <p>2 Toast + 2 Drink</p>
-                        <p>Price: 60.000</p>
                     </div>
                 </div>
             </div>
@@ -64,26 +71,14 @@
         <section id="contact" class="py-16">
             <div class="container mx-auto text-center">
                 <h3 class="text-3xl font-bold mb-8">Contact Us</h3>
-                <form action="http://localhost/submit.php" method="POST" class="max-w-lg mx-auto">
-                    <div class="mb-4">
-                        <label for="name" class="block text-left font-bold">Name</label>
-                        <input type="text" id="name" name="name" class="w-full p-2 border rounded-lg" required>
-                    </div>
-                    <div class="mb-4">
-                        <label for="email"
-                        class="block text-left font-bold">Email</label>
-                        <input type="text" id="Email" name="Email" class="w-full p-2 border rounded-lg" required>
-                    </div>
-                    <div class="mb-4">
-                        <label for="Adress"class="block text-left font-bold">Adress</label>
-                        <input type="Adress" id="Adress" name="adress" class="w-full p-2 border rounded-lg" required>
-                    </div>
-                    <div class="mb-4">
-                        <label for="message" class="block text-left font-bold">Message</label>
-                        <textarea id="message" name="message" rows="5" class="w-full p-2 border rounded-lg" required></textarea>
-                    </div>
-                    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">Send</button>
-                </form>
+				<div class="flex justify-center">
+                <iframe
+				    src="https://docs.google.com/forms/d/1U-AVg0SB7U9d2GTKPW47XZdlst03-CQ_d-Ewe9jLANs/viewform?embedded=true"
+				    class="w-full max-w-[700px] h-[800px] border-0"
+				    frameborder="0"
+					marginheight="0"
+					marginwidth="0">
+				</iframe>
             </div>
         </section>
     </main>
